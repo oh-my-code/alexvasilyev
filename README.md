@@ -1,2 +1,1 @@
-# alexvasilyev
-Alex Vasilyev Portfolio
+https://oh-my-code.github.io/alexvasilyev/
