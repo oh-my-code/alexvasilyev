@@ -3,9 +3,6 @@
     .featured{
         flex-wrap: wrap;
     }
-
-
-
 }
 /* laptop */
 @media only screen and (max-width: 1500px){
@@ -14,6 +11,9 @@
         line-height: 130%;
         letter-spacing: .06rem;
         font-weight: 300;
+    }
+    .scroll{
+        margin-left: 50px;
     }
     .div1, .div2 {
         height: 80px;
@@ -299,9 +299,37 @@ footer p{
     color: white;
     font-weight: 400;
     letter-spacing: .1rem;
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
 }
+
+/* Section with Title & Text */
+.two-columns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.two-columns div{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+/* Image Gallery */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.gallery div{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.gallery img{
+    width: 100%;
+}
+
 
 /* ALUNOS */
 .alunos{
