@@ -47,6 +47,10 @@ a:hover {
     text-decoration: underline;
 }
 
+p{
+    font-size: 1.1rem;
+}
+
 h1{
     font-size: 3rem;
 }
@@ -200,6 +204,11 @@ h3 {
     display: flex;
     margin-top: 50px;
 }
+.featured div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
 .featured>div{
     padding: 0 15px 0 15px;
 }
@@ -224,6 +233,19 @@ h3 {
 .pr-card p{
     padding-bottom: 20px;
 }
+
+
+.testim{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.testim img{
+    width: 80px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
 
 
 /* Footer */
@@ -408,7 +430,7 @@ footer p{
         padding-right: 150px;
     }
     section{
-        padding: 120px 50px 50px 50px;
+        padding: 100px 50px 50px 50px;
     }
     .div1-pr{
         padding-left: 50px;
@@ -523,7 +545,7 @@ footer p{
         padding-right: 150px;
     }
     section{
-        padding: 120px 150px 80px 150px;
+        padding: 100px 150px 50px 150px;
     }
     .div1-pr{
         padding-left: 150px;
