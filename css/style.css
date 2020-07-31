@@ -48,7 +48,7 @@ a:hover {
 }
 
 p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 h1{
@@ -444,7 +444,7 @@ footer p{
 .two-columns{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     max-width: 70%;
     margin: 0 auto;
 }
@@ -556,7 +556,7 @@ footer p{
 .two-columns{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     max-width: 70%;
     margin: 0 auto;
 }
