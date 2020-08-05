@@ -48,7 +48,7 @@ a:hover {
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 h1{
@@ -60,6 +60,13 @@ h2 {
 }
 h3 {
     font-size: 1.5rem;
+}
+h4{
+    font-size: 1.3rem;
+}
+h5{
+    font-size: 1.1rem;
+    color: #0071e3;
 }
 
 
@@ -194,6 +201,10 @@ h3 {
 .border {
     border-bottom: 1px solid rgb(244, 244, 244);
 }
+hr{
+    border-top: 0.1px solid rgb(159, 159, 159);
+    border-bottom: none;
+}
 
 /* Featured Projects */
 
@@ -219,6 +230,13 @@ h3 {
     margin-bottom: -10px;
     opacity: .5;
     font-weight: 500;
+}
+
+
+#contact{
+    padding-top:30px;
+    padding-bottom: 100px;
+
 }
 
 
@@ -257,6 +275,25 @@ footer{
 footer p{
     color: rgb(196, 196, 196);
 }
+.footer-nav a{
+    color: white;
+}
+footer .social img{
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 30px;
+        color: white;
+}
+.footer-email a{
+    color: white;
+}
+.copyright{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
 
 
 /* Single Project CSS */
@@ -364,7 +401,12 @@ footer p{
 .mofp{
     background-color: #F59D23;
 }
+/* Kids Wolrd */
+.kidsworld{
+    /* background-color: #0B91B6; */
+    background-image: linear-gradient(45deg, #FF037F, #F79907);
 
+}
 
 
 
@@ -445,7 +487,7 @@ footer p{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 }
 .two-columns div{
@@ -473,7 +515,7 @@ footer p{
     }
     .icons img{
 
-        width: 60px;
+        width: 50px;
         align-self: center;
     }
     .icons p{
