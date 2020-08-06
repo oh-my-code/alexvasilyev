@@ -363,6 +363,7 @@ footer .social img{
     /* margin: 15px; */
     border: 0.1px solid rgb(220, 220, 220);
     width: 100%;
+    height: 100%;
 }
 .gallery>div{
     padding-right: 20px;
