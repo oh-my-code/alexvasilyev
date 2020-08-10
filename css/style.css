@@ -232,11 +232,18 @@ hr{
     font-weight: 500;
 }
 
+#bio, #awards{
+    padding-top:50px;
+    border-top: .5px solid rgb(230, 230, 230);
+
+}
 
 #contact{
     padding-top:30px;
     padding-bottom: 100px;
-
+}
+#contact a{
+    color: white;
 }
 
 
@@ -729,4 +736,10 @@ footer .social img{
         height: 60vh;
         margin: 0 auto;
     }
+
+    .gallery iframe{
+        width: 100%;
+    }
+
+
 }
