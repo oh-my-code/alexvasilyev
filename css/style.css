@@ -264,6 +264,9 @@ hr{
 }
 
 
+
+
+
 .testim{
     display: flex;
     margin-top: 30px;
@@ -663,7 +666,7 @@ footer .social img{
 @media only screen and (max-width: 600px){
 
     .hero-parent{
-        margin-top: 170px;
+        margin-top: 200px;
         flex-direction: column;
         flex-wrap: wrap;
         border-top: .5px solid rgb(206, 206, 206);
@@ -718,8 +721,11 @@ footer .social img{
 
     .featured{
         flex-wrap: wrap;
-
     }
+    #awards .featured{
+        flex-direction: column;
+    }
+
     .featured div{
         margin-bottom: 20px;
     }
