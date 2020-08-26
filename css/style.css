@@ -1,11 +1,14 @@
 .hero-parent{
     display: flex;
     flex-direction: row;
+    margin-top: -80px;
+
 }
 .hero-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #F5F5F5;
     z-index: -1;
 }
 
@@ -278,6 +281,20 @@ hr{
     margin-right: 20px;
 }
 
+.testim-project{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.testim-project img{
+    width: 80px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+
 
 
 /* Footer */
@@ -437,7 +454,7 @@ footer .social img{
 /* laptop */
 @media only screen and (max-width: 1500px){
     .hero-text{
-        margin: 0 50px;
+        padding: 0 50px;
     }
     /* NAVBAR */
     .main-pr{
@@ -475,9 +492,8 @@ footer .social img{
         letter-spacing: .06rem;
         font-weight: 300;
     }
-    .scroll{
-        margin-left: 50px;
-    }
+    
+
     .div1, .div2 {
         /* height: 80px; */
         display: flex;
@@ -553,7 +569,7 @@ footer .social img{
         margin-top: -80px;
     }
     .hero-text{
-        margin: 0 150px;
+        padding: 0 150px;
     }
     /* NAVBAR */
      .main-pr{
