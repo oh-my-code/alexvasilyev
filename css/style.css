@@ -493,6 +493,13 @@ footer .social img{
         font-weight: 300;
     }
     
+    .city{
+        margin-top: 0;
+    }
+
+    .signature img {
+        width: 200px;
+    }
 
     .div1, .div2 {
         /* height: 80px; */
