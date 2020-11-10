@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="main.js" defer></script>    
     <title>Alex Vasilyev - Web Design & Development</title>
 
@@ -74,9 +75,32 @@ window['_fs_namespace'] = 'FS';
                 <ul class="nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#featured">Portfolio</a></li>
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#awards">Awards</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn">Bio 
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-content">
+                              <a href="#bio">About me</a>
+                              <a href="#awards">Awards</a>
+                              <a href="img/alex_resume.pdf">Resume</a>
+                            </div>
+                          </div> 
+                    </li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn">Blog 
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-content">
+                              <a href="#">Tools & Resources</a>
+                              <a href="#bio">Articles</a>
+                            </div>
+                          </div> 
+                    </li>
                     <li><a href="#contact">Contact</a></li>
+
                 </ul>
             </div>
         </div>
